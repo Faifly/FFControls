@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91C0CD501D9BEA1200E856BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C0CD4F1D9BEA1200E856BF /* AppDelegate.swift */; };
+		91C0CD521D9BEA1200E856BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C0CD511D9BEA1200E856BF /* ViewController.swift */; };
+		91C0CD551D9BEA1200E856BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C0CD531D9BEA1200E856BF /* Main.storyboard */; };
+		91C0CD571D9BEA1200E856BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91C0CD561D9BEA1200E856BF /* Assets.xcassets */; };
+		91C0CD5A1D9BEA1200E856BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C0CD581D9BEA1200E856BF /* LaunchScreen.storyboard */; };
+		91C0CD911D9BEC4D00E856BF /* FFControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C0CD8B1D9BEA3300E856BF /* FFControls.framework */; };
+		91C0CD921D9BEC4D00E856BF /* FFControls.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91C0CD8B1D9BEA3300E856BF /* FFControls.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91C0CD8A1D9BEA3300E856BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91C0CD851D9BEA3300E856BF /* FFControls.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 91C0CD6B1D9BEA2700E856BF;
+			remoteInfo = FFControls;
+		};
+		91C0CD8C1D9BEA3300E856BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91C0CD851D9BEA3300E856BF /* FFControls.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 91C0CD741D9BEA2700E856BF;
+			remoteInfo = FFControlsTests;
+		};
+		91C0CD931D9BEC4D00E856BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91C0CD851D9BEA3300E856BF /* FFControls.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 91C0CD6A1D9BEA2700E856BF;
+			remoteInfo = FFControls;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		91C0CD951D9BEC4D00E856BF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				91C0CD921D9BEC4D00E856BF /* FFControls.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		91C0CD4C1D9BEA1200E856BF /* FFControlsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFControlsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91C0CD4F1D9BEA1200E856BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91C0CD511D9BEA1200E856BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91C0CD541D9BEA1200E856BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91C0CD561D9BEA1200E856BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91C0CD591D9BEA1200E856BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91C0CD5B1D9BEA1200E856BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91C0CD851D9BEA3300E856BF /* FFControls.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FFControls.xcodeproj; path = ../FFControls/FFControls.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91C0CD491D9BEA1200E856BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C0CD911D9BEC4D00E856BF /* FFControls.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91C0CD431D9BEA1200E856BF = {
+			isa = PBXGroup;
+			children = (
+				91C0CD851D9BEA3300E856BF /* FFControls.xcodeproj */,
+				91C0CD4E1D9BEA1200E856BF /* FFControlsDemo */,
+				91C0CD4D1D9BEA1200E856BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91C0CD4D1D9BEA1200E856BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91C0CD4C1D9BEA1200E856BF /* FFControlsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91C0CD4E1D9BEA1200E856BF /* FFControlsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				91C0CD4F1D9BEA1200E856BF /* AppDelegate.swift */,
+				91C0CD511D9BEA1200E856BF /* ViewController.swift */,
+				91C0CD531D9BEA1200E856BF /* Main.storyboard */,
+				91C0CD561D9BEA1200E856BF /* Assets.xcassets */,
+				91C0CD581D9BEA1200E856BF /* LaunchScreen.storyboard */,
+				91C0CD5B1D9BEA1200E856BF /* Info.plist */,
+			);
+			path = FFControlsDemo;
+			sourceTree = "<group>";
+		};
+		91C0CD861D9BEA3300E856BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91C0CD8B1D9BEA3300E856BF /* FFControls.framework */,
+				91C0CD8D1D9BEA3300E856BF /* FFControlsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91C0CD4B1D9BEA1200E856BF /* FFControlsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91C0CD5E1D9BEA1200E856BF /* Build configuration list for PBXNativeTarget "FFControlsDemo" */;
+			buildPhases = (
+				91C0CD481D9BEA1200E856BF /* Sources */,
+				91C0CD491D9BEA1200E856BF /* Frameworks */,
+				91C0CD4A1D9BEA1200E856BF /* Resources */,
+				91C0CD951D9BEC4D00E856BF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91C0CD941D9BEC4D00E856BF /* PBXTargetDependency */,
+			);
+			name = FFControlsDemo;
+			productName = FFControlsDemo;
+			productReference = 91C0CD4C1D9BEA1200E856BF /* FFControlsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91C0CD441D9BEA1200E856BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Faifly;
+				TargetAttributes = {
+					91C0CD4B1D9BEA1200E856BF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = B2YEP8DDS6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 91C0CD471D9BEA1200E856BF /* Build configuration list for PBXProject "FFControlsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91C0CD431D9BEA1200E856BF;
+			productRefGroup = 91C0CD4D1D9BEA1200E856BF /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 91C0CD861D9BEA3300E856BF /* Products */;
+					ProjectRef = 91C0CD851D9BEA3300E856BF /* FFControls.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				91C0CD4B1D9BEA1200E856BF /* FFControlsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		91C0CD8B1D9BEA3300E856BF /* FFControls.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FFControls.framework;
+			remoteRef = 91C0CD8A1D9BEA3300E856BF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		91C0CD8D1D9BEA3300E856BF /* FFControlsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FFControlsTests.xctest;
+			remoteRef = 91C0CD8C1D9BEA3300E856BF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91C0CD4A1D9BEA1200E856BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C0CD5A1D9BEA1200E856BF /* LaunchScreen.storyboard in Resources */,
+				91C0CD571D9BEA1200E856BF /* Assets.xcassets in Resources */,
+				91C0CD551D9BEA1200E856BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91C0CD481D9BEA1200E856BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C0CD521D9BEA1200E856BF /* ViewController.swift in Sources */,
+				91C0CD501D9BEA1200E856BF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91C0CD941D9BEC4D00E856BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FFControls;
+			targetProxy = 91C0CD931D9BEC4D00E856BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91C0CD531D9BEA1200E856BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91C0CD541D9BEA1200E856BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91C0CD581D9BEA1200E856BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91C0CD591D9BEA1200E856BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91C0CD5C1D9BEA1200E856BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91C0CD5D1D9BEA1200E856BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91C0CD5F1D9BEA1200E856BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B2YEP8DDS6;
+				INFOPLIST_FILE = FFControlsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FF.FFControlsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		91C0CD601D9BEA1200E856BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B2YEP8DDS6;
+				INFOPLIST_FILE = FFControlsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FF.FFControlsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91C0CD471D9BEA1200E856BF /* Build configuration list for PBXProject "FFControlsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91C0CD5C1D9BEA1200E856BF /* Debug */,
+				91C0CD5D1D9BEA1200E856BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91C0CD5E1D9BEA1200E856BF /* Build configuration list for PBXNativeTarget "FFControlsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91C0CD5F1D9BEA1200E856BF /* Debug */,
+				91C0CD601D9BEA1200E856BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91C0CD441D9BEA1200E856BF /* Project object */;
+}
