@@ -389,6 +389,7 @@
 				91C0CD601D9BEA1200E856BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

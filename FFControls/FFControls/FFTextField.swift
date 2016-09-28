@@ -8,12 +8,12 @@
 
 import UIKit
 
-class FFTextField: UITextField
+open class FFTextField: UITextField
 {
-    @IBInspectable fileprivate var topMargin: CGFloat = 0
-    @IBInspectable fileprivate var leftMargin: CGFloat = 0
-    @IBInspectable fileprivate var bottomMargin: CGFloat = 0
-    @IBInspectable fileprivate var rightMargin: CGFloat = 0
+    @IBInspectable open var topMargin: CGFloat = 0
+    @IBInspectable open var leftMargin: CGFloat = 0
+    @IBInspectable open var bottomMargin: CGFloat = 0
+    @IBInspectable open var rightMargin: CGFloat = 0
     
     fileprivate var padding: UIEdgeInsets
     {
