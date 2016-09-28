@@ -20,17 +20,17 @@ open class FFTextField: UITextField
         return UIEdgeInsets(top: self.topMargin, left: self.leftMargin, bottom: self.bottomMargin, right: self.rightMargin)
     }
     
-    override func textRect(forBounds bounds: CGRect) -> CGRect
+    override open func textRect(forBounds bounds: CGRect) -> CGRect
     {
         return UIEdgeInsetsInsetRect(bounds, self.padding)
     }
     
-    override func placeholderRect(forBounds bounds: CGRect) -> CGRect
+    override open func placeholderRect(forBounds bounds: CGRect) -> CGRect
     {
         return UIEdgeInsetsInsetRect(bounds, self.padding)
     }
     
-    override func editingRect(forBounds bounds: CGRect) -> CGRect
+    override open func editingRect(forBounds bounds: CGRect) -> CGRect
     {
         return UIEdgeInsetsInsetRect(bounds, self.padding)
     }
