@@ -10,7 +10,7 @@ import UIKit
 
 extension UIAlertController
 {
-    static func showOKAlertWithTitle(_ title: String?, message: String?)
+    public static func showOKAlertWithTitle(_ title: String?, message: String?)
     {
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
         let OKAction = UIAlertAction(title: NSLocalizedString("OK", comment: ""), style: .default, handler: nil)
