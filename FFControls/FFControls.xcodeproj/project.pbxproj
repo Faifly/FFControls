@@ -12,6 +12,7 @@
 		91C0CD7A1D9BEA2700E856BF /* FFControlsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C0CD791D9BEA2700E856BF /* FFControlsTests.swift */; };
 		91C0CD7C1D9BEA2700E856BF /* FFControls.h in Headers */ = {isa = PBXBuildFile; fileRef = 91C0CD6E1D9BEA2700E856BF /* FFControls.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91C0CD901D9BEAA300E856BF /* FFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C0CD8F1D9BEAA300E856BF /* FFTextField.swift */; };
+		91E0CFC11DAE4C2B008FE004 /* UIAlertController+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E0CFC01DAE4C2B008FE004 /* UIAlertController+Custom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		91C0CD7B1D9BEA2700E856BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91C0CD8E1D9BEA4700E856BF /* FFUtils.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = FFUtils.podspec; path = ../FFUtils.podspec; sourceTree = "<group>"; };
 		91C0CD8F1D9BEAA300E856BF /* FFTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFTextField.swift; sourceTree = "<group>"; };
+		91E0CFC01DAE4C2B008FE004 /* UIAlertController+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Custom.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				91C0CD6F1D9BEA2700E856BF /* Info.plist */,
 				91C0CD8F1D9BEAA300E856BF /* FFTextField.swift */,
 				917176641D9BF81D00561454 /* UIViewController+Custom.swift */,
+				91E0CFC01DAE4C2B008FE004 /* UIAlertController+Custom.swift */,
 			);
 			path = FFControls;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91E0CFC11DAE4C2B008FE004 /* UIAlertController+Custom.swift in Sources */,
 				91C0CD901D9BEAA300E856BF /* FFTextField.swift in Sources */,
 				917176651D9BF81D00561454 /* UIViewController+Custom.swift in Sources */,
 			);
