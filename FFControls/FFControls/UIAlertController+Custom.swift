@@ -35,7 +35,7 @@ extension UIAlertController
         }
     }
     
-    func show()
+    public func show()
     {
         self.alertWindow = UIWindow(frame: UIScreen.main.bounds)
         self.alertWindow?.rootViewController = UIViewController()
